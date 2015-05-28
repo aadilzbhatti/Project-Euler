@@ -16,6 +16,7 @@ def sieve(n):
 	for i in range(len(A)):
 		if A[i]:
 			primes.append(i)
+			print(i)
 
 	return primes
 	
