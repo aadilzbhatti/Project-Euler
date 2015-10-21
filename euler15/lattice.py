@@ -8,4 +8,4 @@ def count(x, y, tx, ty):
 	if (x < tx or y < ty):
 		return count(x + 1, y, tx, ty) + count(x, y + 1, tx, ty)
 
-print(count(0, 0, 20, 20))
+print(count(0, 0, 2, 2))
